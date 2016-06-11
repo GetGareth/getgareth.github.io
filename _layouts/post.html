@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="wrapper style1">
+    <article class="container">
+      <div class="row">
+        <div class="2u">
+          <h2 class="page-heading">Posts:</h2>
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <h5>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h5>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="8u">
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
+
+        <section class="post-content">
+            {{ content }}
+        </section>
+        </div>
+      </div>
+    </article>
+
+</div>

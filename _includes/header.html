@@ -1,0 +1,21 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    <!--h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h1-->
+    <a href="{{ site.baseurl }}/"><img src="/gareth/images/gareth-logo-big.png" class="logo" alt="Gareth Logo"></a>
+    <nav id="nav">
+        <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+            <li><a href="https://github.com/craftsmenlabs/gareth-jvm#gareth">Docs</a></li>
+            {% for page in site.pages %}
+                  {% if page.title %}
+                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+            {% endfor %}
+            <li><a href="https://travis-ci.org/craftsmenlabs/gareth-jvm" target="_blank"><img src="https://travis-ci.org/craftsmenlabs/gareth-jvm.svg?branch=master" alt="Build Status"></a>
+              <a href="https://coveralls.io/github/craftsmenlabs/gareth-jvm?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/craftsmenlabs/gareth-jvm/badge.svg?branch=master" alt="Coverage Status"></a>
+              <a href="https://www.codacy.com/app/ntalens/gareth-jvm/dashboard" target="_blank"><img scr="https://www.codacy.com/app/ntalens/gareth-jvm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=craftsmenlabs/gareth-jvm&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/9d539c6385fa464ab02e7c5b76a44139" alt="Overall status"></a></li>
+        </ul>
+    </nav>
+    <a href="https://github.com/craftsmenlabs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+  </header>
