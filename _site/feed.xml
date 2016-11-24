@@ -3,11 +3,11 @@
   <channel>
     <title>Gareth - Continuous Validation</title>
     <description>Hello world, please meet Gareth. He can be seriously unpleasant. Trust me, we know. But he is becoming more and more indispensable. He will tell you clearly, without emotions, when your ideas are rubbish. He will certainly not hold back and he will give you the facts when your assumptions don’t hold up. He will keep validating that your business goals are reached. If not, he’ll let you know.</description>
-    <link>http://getgareth.io//gareth/</link>
-    <atom:link href="http://getgareth.io//gareth/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 May 2016 13:58:22 +0200</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 13:58:22 +0200</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>http://getgareth.io//getgareth.github.io/</link>
+    <atom:link href="http://getgareth.io//getgareth.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 24 Nov 2016 14:15:12 +0100</pubDate>
+    <lastBuildDate>Thu, 24 Nov 2016 14:15:12 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
     
       <item>
         <title>Some New Cool  Features</title>
@@ -83,23 +83,23 @@ Success: order 5 iPhones from Amazon&lt;/p&gt;
 
 &lt;h1 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h1&gt;
 &lt;p&gt;Also we upgraded the dashboard quite a bit so there is a quick overview of running experiments and the amount of failing/succeeding:
-&lt;img src=&quot;/gareth/images/blogpics/pie.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/getgareth.github.io/images/blogpics/pie.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And for a more detailed view of the experiments:
-&lt;img src=&quot;/gareth/images/blogpics/list.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/getgareth.github.io/images/blogpics/list.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Do you like it or do you need some help with setting Gareth up? Do you want to contribute in any way? Please let us know!&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//gareth/2016/04/12/some-new-cool-features.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2016/04/12/some-new-cool-features.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</guid>
         
         
       </item>
     
       <item>
         <title>Impact Mapping And Continuous Validation</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/impact.jpg&quot; class=&quot;fit image&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/impact.jpg&quot; class=&quot;fit image&quot; /&gt;
 There is always a reason for making software. Let’s rephrase that: there should always be a reason, at least from a business perspective. How else could our products have any impact?&lt;/p&gt;
 
 &lt;p&gt;Whether we want to make an app that that seamlessly connects riders to drivers or build a community where you can hire and rent apartments while earning tons of money: it is basically all about adding value and solving problems from a software point of view.&lt;/p&gt;
@@ -109,7 +109,7 @@ There is always a reason for making software. Let’s rephrase that: there shoul
 
 &lt;p&gt;The example below from by impactmapping.com illustrates how impact mapping works:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/im_example.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/im_example.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;We want to reach 1 million players on our platform.&lt;/li&gt;
@@ -120,10 +120,10 @@ There is always a reason for making software. Let’s rephrase that: there shoul
 
 &lt;p&gt;The impact map cheat sheet made by &lt;a href=&quot;http://craigsmith.id.au/&quot;&gt;Craig Smith&lt;/a&gt; can be a helpful aid to keep everybody focused while doing the impact mapping:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/impact-map-cheat-sheet.jpg&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/impact-map-cheat-sheet.jpg&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Assumptions&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/assumptions.png&quot; class=&quot;fit image&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/assumptions.png&quot; class=&quot;fit image&quot; /&gt;
 With impact mapping we make a lot of assumptions. In the example below we assume that the actor called Player can help us in making the desired impact (1 million users). We also assume that Player will do this by inviting friends, and we make the assumption that semi-automatic invites will help.&lt;/p&gt;
 
 &lt;h2&gt;Following up on your stories&lt;/h2&gt;
@@ -161,15 +161,15 @@ With impact mapping we make a lot of assumptions. In the example below we assume
 &lt;a href=&quot;http://craftsmenlabs.github.io/gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html&quot;&gt;After continuous integration there is continuous validation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 16 Nov 2015 00:00:00 +0100</pubDate>
-        <link>http://getgareth.io//gareth/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
         
         
       </item>
     
       <item>
         <title>Meet Gareth. He Is Seriously Unpleasant</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/screenshot-gareth.jpg&quot; class=&quot;fit image&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/screenshot-gareth.jpg&quot; class=&quot;fit image&quot; /&gt;
 Hello world, please meet Gareth. He can be seriously unpleasant. Trust me, we know. But he is becoming more and more indispensable. He will tell you clearly, without emotions, when your ideas are rubbish. He will certainly not hold back and he will give you the facts when your assumptions don’t hold up. He will keep validating that your business goals are reached. If not, he’ll let you know.&lt;/p&gt;
 
 &lt;p&gt;Gareth validates the Why, the reason certain functionality was built in the first place. He makes sure that the (business) goals are reached and keeps validating these goals. We all know that implementing one feature can affect another. This also has an impact on the success of the related goals.&lt;/p&gt;
@@ -218,7 +218,7 @@ Action: Create an investigative story on the backlog.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;It is also great for teams to see that not only code, but also business goals are validated continuously.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/Gareth Schema Business.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/Gareth Schema Business.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;h2&gt;Get Gareth&lt;/h2&gt;
 &lt;p&gt;Are you interested? Please be our guest and try Gareth. Gareth is open source (GNU General Public License v2.0) so that we all can benefit. Do you want to contribute in any way? Please let us know! We are really looking forward hearing from you.&lt;/p&gt;
@@ -230,8 +230,8 @@ Action: Create an investigative story on the backlog.&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;420&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xWvc--BOtHo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//gareth/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
         
         
       </item>
@@ -283,7 +283,7 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;With the ExperimentEngineConfig you can load experiment descriptions and definitions. The ExperimentEngine will load this configuration. Afterwards you can start the engine and your experiment will be validated automatically.&lt;/p&gt;
 
 &lt;h2&gt;Wrapup&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/gareth/images/explain/Cycle 3.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/explain/Cycle 3.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Gareth makes it possible for a product owner to clearly communicate with stakeholders about the business goals and the results of the validation. “Yes we assumed that the effect of this was X but we found out that this assumption was wrong. Let’s find out why and get it right”. It clearly helps the stakeholders and the product owner to define the right functionality and validate these continuously. It is a great way to improve product definitions.&lt;/p&gt;
 
@@ -293,8 +293,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Are you interested? Please be our guest and try Gareth. Gareth is open source (GNU General Public License v2.0) so that we all can benefit. Do you want to contribute in any way? Please let us know! We are really looking forward to hearing from you.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//gareth/2015/09/15/Gareth,-validating-your-business-goals.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
         
         
       </item>
@@ -310,17 +310,17 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Software development has everything to do with validations. There are at least three rounds of validation from ideas to maintaining the software in a production environment.&lt;/p&gt;
 
 &lt;h2&gt;Validate your ideas and business goals&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/gareth/images/explain/Cycle 1.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/explain/Cycle 1.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The first round of validation is about vision, business goals and problems to solve. Is the vision of the product (still) right? Are the right personas defined? Is the desired impact of the software defined? Are the right activities defined? Are the goals clear? What is the desired ROI?&lt;/p&gt;
 
 &lt;h2&gt;Continuous Integration&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/gareth/images/explain/Cycle 2.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/explain/Cycle 2.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The second round of validation is about technical and behavioural validation. Features are being designed, built, tested, accepted and deployed.&lt;/p&gt;
 
 &lt;h2&gt;Continuous validation&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/gareth/images/explain/Cycle 3.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/explain/Cycle 3.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hooray! Your software is live!&lt;/strong&gt; Well, let’s NOT sit back and relax. This is usually the moment where we tend to run back to the product backlog and get started on new features. Burn down those points! Move post-its around like there is no tomorrow! Like dropping your children off at school without ever speaking to the teachers.&lt;/p&gt;
 
@@ -338,31 +338,31 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;h3&gt;Validate goals&lt;/h3&gt;
 &lt;p&gt;You make your software with a purpose, right? You want to reach business goals or you want to solve problems. But to make sure your software achieves what you intended it to do and keeps doing you need to validate this continuously. If your goal was to sell more items and you implemented functionality to reach this goal, you’ll need to validate its effectiveness. And then you need to keep validating it because software is no concrete structure and will change.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/Fence.jpg&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/Fence.jpg&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I cannot emphasise this enough: remove functionality that doesn’t meet the criteria anymore. The world is full of bloated expanding products which become even bigger and unusable. Like the gate in the picture. I’m sure there was a good reason to make it and it worked very well when there was a fence. For now it only costs us because it needs maintenance.&lt;/p&gt;
 
 &lt;p&gt;Does your product have gates without fences? Are you aware? Not all as visible as the one in the picture I’m sure, but they’ll cost you money just the same.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
         
         
       </item>
     
       <item>
         <title>How Assumptions Are Not The Mother Of All F Ups</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/CD-is-the-start-skewd.png&quot; class=&quot;fit image&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/CD-is-the-start-skewd.png&quot; class=&quot;fit image&quot; /&gt;
 &lt;em&gt;The thing about trends is that they will come and they will go. So after the agile trend continuous delivery and devops are in line. I think in a way it is very nice to see that development craftsmanship practices are becoming more and more accepted. We can all benefit from this. Software is eating the world so let’s be damn sure that the software is good. But is it?&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Be honest. After the development of the first couple of versions. After adding new features for a while. What is the state of the product? Are the same assumptions holding up? Are your goals still the same? Did the world change? Or is it enough that you can deliver your software in a matter of seconds?&lt;/p&gt;
 
 &lt;p&gt;Often we think we are building software like this:
-&lt;img src=&quot;/gareth/images/blogpics/What-we-think-we-make-700x442.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/getgareth.github.io/images/blogpics/What-we-think-we-make-700x442.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But we are doing this:
-&lt;img src=&quot;/gareth/images/blogpics/What-we-really-make-700x397.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/getgareth.github.io/images/blogpics/What-we-really-make-700x397.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Let’s say we are still building the same crap but at least now we can deliver it faster and with fancier new tools.&lt;/p&gt;
 
@@ -382,11 +382,11 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is an example of a story we are using in our demo setup which contains both the BDD feature and an experiment:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/CD-is-the-start1.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/CD-is-the-start1.png&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Step 2 – 8: Do the magic: build and deliver the best software ever seen.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/gareth/images/blogpics/CD-is-the-start.jpg&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/CD-is-the-start.jpg&quot; class=&quot;fit image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;For a more indepth explanation of this model please check this blog.&lt;/p&gt;
 
@@ -419,8 +419,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;We are currently implementing this idea and will share our findings and solutions in one or more follow-up blogs. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//gareth/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
-        <guid isPermaLink="true">http://getgareth.io//gareth/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
         
         
       </item>

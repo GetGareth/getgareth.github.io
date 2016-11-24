@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-    
-    {% include /head.html %}
+
+  {% include /head.html %}
 
 	<body id="top">
 
         {% include /header.html %}
 
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>Gareth business goal validation</h2>
+                <h3>change the banner to banner2 with dashboard image</h3>
+                <p></p>
+            </div>
+        </section>
         {{ content }}
-
+        {% include /contact.html %}
+        {% include /to-blog.html %}
         {% include /footer.html %}
 
     </body>
