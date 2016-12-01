@@ -16,10 +16,11 @@
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: Source Sans Pro,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
+		-webkit-font-smoothing: antialiased;
 	}
 
 	a {
@@ -41,7 +42,7 @@
 	}
 
 	p {
-		font-size: 1em;
+		font-size: 1.15em;
 		line-height: 1.5em;
 		margin: 0 0 2em 0;
 	}
