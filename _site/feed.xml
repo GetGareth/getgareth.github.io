@@ -3,11 +3,11 @@
   <channel>
     <title>Gareth - Continuous Validation</title>
     <description>Hello world, please meet Gareth. He can be seriously unpleasant. Trust me, we know. But he is becoming more and more indispensable. He will tell you clearly, without emotions, when your ideas are rubbish. He will certainly not hold back and he will give you the facts when your assumptions don’t hold up. He will keep validating that your business goals are reached. If not, he’ll let you know.</description>
-    <link>http://getgareth.io//getgareth.github.io/</link>
-    <atom:link href="http://getgareth.io//getgareth.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Dec 2016 22:02:08 +0100</pubDate>
-    <lastBuildDate>Thu, 01 Dec 2016 22:02:08 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <link>http://localhost:4000/getgareth.github.io/</link>
+    <atom:link href="http://localhost:4000/getgareth.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 02 Dec 2016 15:59:02 +0100</pubDate>
+    <lastBuildDate>Fri, 02 Dec 2016 15:59:02 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Some New Cool  Features</title>
@@ -66,12 +66,14 @@ Success: order 5 iPhones from Amazon&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;specifying-duration&quot;&gt;Specifying duration&lt;/h1&gt;
-&lt;p&gt;The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:
-* Time: 48 hours
-* Time: 3 weeks
-* Time: 42 days
-* Time: 1 month
-* Time: 1 year&lt;/p&gt;
+&lt;p&gt;The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Time: 48 hours&lt;/li&gt;
+  &lt;li&gt;Time: 3 weeks&lt;/li&gt;
+  &lt;li&gt;Time: 42 days&lt;/li&gt;
+  &lt;li&gt;Time: 1 month&lt;/li&gt;
+  &lt;li&gt;Time: 1 year&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Note that month is always 30 days and year is 365 days. Running the experiment with 1 month duration on the 1st of February will check the assumption on the 3rd of March, ignoring leap years. If you want specific behaviour you can still write your own implementation:&lt;/p&gt;
 
@@ -91,8 +93,8 @@ Success: order 5 iPhones from Amazon&lt;/p&gt;
 &lt;p&gt;Do you like it or do you need some help with setting Gareth up? Do you want to contribute in any way? Please let us know!&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2016/04/12/some-new-cool-features.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2016/04/12/some-new-cool-features.html</guid>
         
         
       </item>
@@ -161,8 +163,8 @@ With impact mapping we make a lot of assumptions. In the example below we assume
 &lt;a href=&quot;http://craftsmenlabs.github.io/gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html&quot;&gt;After continuous integration there is continuous validation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 16 Nov 2015 00:00:00 +0100</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
         
         
       </item>
@@ -230,8 +232,8 @@ Action: Create an investigative story on the backlog.&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;420&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xWvc--BOtHo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
         
         
       </item>
@@ -293,8 +295,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Are you interested? Please be our guest and try Gareth. Gareth is open source (GNU General Public License v2.0) so that we all can benefit. Do you want to contribute in any way? Please let us know! We are really looking forward to hearing from you.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
         
         
       </item>
@@ -345,8 +347,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Does your product have gates without fences? Are you aware? Not all as visible as the one in the picture I’m sure, but they’ll cost you money just the same.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
         
         
       </item>
@@ -419,8 +421,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;We are currently implementing this idea and will share our findings and solutions in one or more follow-up blogs. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
-        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
+        <link>http://localhost:4000/getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
+        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
         
         
       </item>

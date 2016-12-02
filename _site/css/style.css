@@ -42,7 +42,7 @@
 	}
 
 	p {
-		font-size: 1.15em;
+		font-size: 1.25em;
 		line-height: 1.5em;
 		margin: 0 0 2em 0;
 	}
@@ -1082,6 +1082,7 @@
 		text-align: center;
 		position: relative;
 	}
+
 	#banner.with-image {
 		background-color: #fff;
 		background-size: cover;
@@ -1091,6 +1092,29 @@
 		padding: 3em 0 0em 0;
 		text-align: center;
 		position: relative;
+	}
+
+	#banner.white-banner {
+		background-color: #fff;
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #fff;
+		padding: 3em 0 5em 0;
+		text-align: center;
+		position: relative;
+	}
+
+	#banner.white-banner h2 {
+		color: #e21414;
+		margin: 1em 0 0.5em 0;
+		padding: 0;
+	}
+
+	#banner.white-banner p {
+		color: #666f77;
+		font-size: 2.25em;
+		margin-bottom: 2em;
 	}
 
 	#banner.with-image h2 {
