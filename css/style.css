@@ -25,7 +25,7 @@
 
 	a {
 		color: #D9261C;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -43,6 +43,12 @@
 
 	p {
 		font-size: 1.25em;
+		line-height: 1.5em;
+		margin: 0 0 2em 0;
+	}
+
+	p.small {
+		font-size: 0.9em;
 		line-height: 1.5em;
 		margin: 0 0 2em 0;
 	}
@@ -586,6 +592,7 @@
 
 		ul li {
 			padding-left: 0.5em;
+			line-height: 1.5em;
 		}
 
 		ul.alt {
@@ -594,8 +601,9 @@
 		}
 
 			ul.alt li {
-				font-size: 1em;
+				font-size: 0.8em;
 				padding: 0.5em 0;
+				line-height: 1em;
 			}
 
 				ul.alt li:first-child {
