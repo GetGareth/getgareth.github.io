@@ -100,13 +100,14 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(144, 144, 144, 0.25);
+		border-bottom: dotted 1px rgba(144, 144, 144, 0.25);
 		margin: 3em 0;
 	}
 
 		hr.major {
 			margin: 2em 0 5em 0;
 		}
+
 
 	blockquote {
 		border-left: solid 4px rgba(144, 144, 144, 0.25);
@@ -556,6 +557,12 @@
 					width: 200px;
 			}
 
+			.img-centered {
+			    margin: 0 auto;
+					height: 50px;
+					vertical-align: middle;
+			}
+
 
 /* List */
 
@@ -572,7 +579,9 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		font-size: 1.25em;
+		line-height: 1em;
+		margin: 0 0 2em 0;
 	}
 
 		ul li {
@@ -585,7 +594,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 1px rgba(144, 144, 144, 0.25);
+				font-size: 1em;
 				padding: 0.5em 0;
 			}
 
@@ -779,10 +788,11 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #192024;
-		border-radius: 6px;
-		border: 0;
-		color: #ffffff !important;
+		background-color: #ffffff;
+		border-radius: 3px;
+		border-color: rgba(144, 144, 144, 0.25);
+		border: 1;
+		color: #e21414 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
@@ -802,7 +812,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #232d33;
+			background-color: #e21414;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
@@ -932,12 +943,16 @@
 			color: #555f66;
 		}
 
-
-
 		.wrapper.style2 {
 			background: #37474F;
 			color: #c5c7c8;
 		}
+
+		.wrapper.style-no-pad {
+			padding: 0 0;
+
+		}
+
 
 			.wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: #ffffff;
@@ -1113,7 +1128,7 @@
 
 	#banner.white-banner p {
 		color: #666f77;
-		font-size: 2.25em;
+		font-size: 2em;
 		margin-bottom: 2em;
 	}
 
@@ -1162,12 +1177,20 @@
 		}
 
 		#banner .button.alt {
-			box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
+			box-shadow: inset 0 0 0 1px #e21414;
 			color: #ffffff !important;
+		}
+		#banner .button.alt-redtxt {
+			box-shadow: inset 0 0 0 1px #e21414;
+			color: #e21414 !important;
 		}
 
 			#banner .button.alt:hover {
 				background-color: rgba(144, 144, 144, 0.275);
+			}
+
+			#banner .button.alt-redtxt:hover {
+				color: #ffffff !important;
 			}
 
 			#banner .button.alt:active {
@@ -1234,4 +1257,10 @@
 
 		#footer .icons a {
 			color: #bbb;
+		}
+
+		/* clients row */
+		aside.clients img {
+		    margin: 50px auto;
+			  padding: 0 10px;
 		}

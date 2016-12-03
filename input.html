@@ -4,20 +4,25 @@ layout: input
 
 
 	<!-- Current challenges -->
-	<section id="three" class="wrapper style1">
+	<section id="input" class="wrapper style1">
 		<div class="container">
+
 			<div class="row">
-				<div class="8u">
-					<section>
+				<div class="12u">
 						<h2>Input equals output</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="7u">
+					<section>
 						<p>
 The beauty of an user story is that it describes a lot in little. An user story is an effective way of notating requirements. It describes the persona for which it will be made, the desired outcome and most importantly the problem that needs to be solved.
-<br><br>
-						But what if the stories on a backlog do not have this proper description? How can we expect the end result, the working software, to do what we expected? It is difficult to have an overview of the quality of a backlog and the statuses of multiple backlogs: the portfolio. This really inflicts with the task of building the best products.
+<br><br>But what if the stories on a backlog do not have this proper description? How can we expect the end result, the working software, to do what we expected? It is difficult to have an overview of the quality of a backlog and the statuses of multiple backlogs: the portfolio. This really inflicts with the task of building the best products.
 						</p>
 					</section>
 				</div>
-				<div class="4u">
+				<div class="5u">
 					<img src="images/input/dashboard.png" class="image small"/>
 				</div>
 			</div>
@@ -26,7 +31,7 @@ The beauty of an user story is that it describes a lot in little. An user story 
 
 
 	<!-- One -->
-		<section id="one" class="wrapper style2">
+		<section id="continuous" class="wrapper style2">
 			<div class="container">
 				<header class="major">
 					<h2>Continuous improvement</h2>
@@ -64,20 +69,49 @@ The beauty of an user story is that it describes a lot in little. An user story 
 			<div class="container">
 				<header class="major">
 					<h2>The benefits</h2>
-					<p>
+									</header>
 						<ul>
 							<li>No more long demotivating meetings where the input is not prepared well enough but short effective and energizing sprint planning meetings. </li>
 							<li>No more discrepancies between what is expected and what is delivered. </li>
 							<li>Setting up and/or maintaining the company conventions regarding to requirements. </li>
-							<li>A clear and concise overview of the current status aswell the improvement over time.</li>   
+							<li>A clear and concise overview of the current status and the improvement over time.</li>
 							<li>Reporting over the quality of both the individual backlogs as the overall product portfolio. </li>
 							<li>A great way to enable continuous validation on product and requirement management. </li>
 							<li>Adaptive ranking capabilities to create a simple score. </li>
 							<li>No more untracked degradation of your backlog quality by team members changing priority or descriptions.</li>
 					</ul>
-					</p>
-				</header>
+
 			</div>
+		</section>
+
+		<!-- products -->
+		<section id="product" class="wrapper style-no-pad">
+	    <aside class="clients">
+	        <div class="container">
+	            <div class="row">
+	                <div class="3u">
+	                    <a href="#">
+	                        <img src="images/logos/jira.png" class="img-responsive img-centered" alt="">
+	                    </a>
+	                </div>
+	                <div class="3u">
+	                    <a href="#">
+	                        <img src="images/logos/pivotal-tracker.png" class="img-responsive img-centered" alt="">
+	                    </a>
+	                </div>
+	                <div class="3u">
+	                    <a href="#">
+	                        <img src="images/logos/trello.png" class="img-responsive img-centered" alt="">
+	                    </a>
+	                </div>
+	                <div class="3u">
+	                    <a href="#">
+	                        <img src="images/logos/github.png" class="img-responsive img-centered" alt="">
+	                    </a>
+	                </div>
+	            </div>
+	        </div>
+	    </aside>
 		</section>
 
 	<!-- Configurable -->
@@ -88,12 +122,41 @@ The beauty of an user story is that it describes a lot in little. An user story 
 					<section>
 						<h2>Configurable</h2>
 						<p>
-Gareth backlog validation is highly configurable. Multiple issue and project tracking systems like Jira, Trello, Github, Pivotal Tracker are supported with more coming. You can define different issue types and how they should be used. For each of these subject you can define the threshold or importance so the results reflects your desired way of working. This way you can be free to set up and enforce your own company conventions regarding to requirements the way you want to.
+Gareth backlog validation is highly configurable. Multiple issue and project tracking systems like Jira, Trello, Github, Pivotal Tracker are supported with more coming. Gareth distincts the following issue types with their own configurable fill rates:<br><br>
+							- user stories (as a, i want, so that | estimations)<br>
+							- acceptance criteria (given, when, then)<br>
+							- bugs (reproduction path, expected behaviour, acceptance criteria)<br>
+							- epics (business goals)<br>
+							- team tasks <br><br>For each of these issue types the threshold and importance can be configured so the results reflects your desired way of working. This way you can be free to set up and enforce your own company conventions regarding to requirements the way you want to.
 						</p>
 					</section>
 				</div>
 				<div class="4u">
 					<img src="images/input/issue-types.png" class="image small"/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- how -->
+	<section id="config" class="wrapper style2">
+		<div class="container">
+
+			<div class="row">
+				<div class="2u">
+					<i class="icon fa fa-question major"></i>
+				</div>
+				<div class="10u">
+					<section>
+							<h2>About backlog validation</h2>
+						<p>
+							Gareths backlog validation creates a concise ranking for your backlog based on the relative importance of your issues. This means that issues in the top of the backlog are weighted more heavily compared to the ones on the bottom. The actual setting is configurable. There are alerts whenever a backlog doesn't meet the quality gate.<br><br>
+							Gareth's smart text parsing even enable you to extract issue and criteria content from large free-text fields. This makes it easy to implement in established backlogs or tools with limited custom field support.
+
+
+							Gareth can be used as part of your CI environment and can even be integrated into your CI pipeline or on your Jenkins Dashboard.
+						</p>
+					</section>
 				</div>
 			</div>
 		</div>
