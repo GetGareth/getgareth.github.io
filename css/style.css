@@ -830,7 +830,7 @@
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #0f1315;
+			background-color: #818181;
 		}
 
 		input[type="submit"].icon,
