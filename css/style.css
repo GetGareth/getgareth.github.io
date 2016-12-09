@@ -158,6 +158,13 @@
 		text-align: right;
 	}
 
+	.align-footer-r {
+		text-align: right;
+	}
+
+	.align-footer-c {
+		text-align: center;
+	}
     .float-left {
         float: left;
     }

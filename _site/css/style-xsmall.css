@@ -48,6 +48,16 @@
 				padding-top: 0;
 			}
 
+/* footer alignment*/
+		.align-footer-r {
+			text-align: left;
+		}
+
+		.align-footer-c {
+			text-align: left;
+		}
+
+
 /* Button */
 
 	input[type="submit"],
