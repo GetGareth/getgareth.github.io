@@ -3,11 +3,53 @@
   <channel>
     <title>Gareth - The continuous business goal and requirements validation platform.</title>
     <description>Hello world, please meet Gareth. He can be seriously unpleasant. Trust me, we know. But he is becoming more and more indispensable. He will tell you clearly, without emotions, when your ideas are rubbish. He will certainly not hold back and he will give you the facts when your assumptions don’t hold up. He will keep validating that your business goals are reached. If not, he’ll let you know.</description>
-    <link>http://localhost:4000/getgareth.github.io/</link>
-    <atom:link href="http://localhost:4000/getgareth.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Dec 2016 09:38:54 +0100</pubDate>
-    <lastBuildDate>Fri, 09 Dec 2016 09:38:54 +0100</lastBuildDate>
-    <generator>Jekyll v3.3.0</generator>
+    <link>http://getgareth.io//getgareth.github.io/</link>
+    <atom:link href="http://getgareth.io//getgareth.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 27 Dec 2016 21:07:11 +0100</pubDate>
+    <lastBuildDate>Tue, 27 Dec 2016 21:07:11 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Garbage In, Garbage Out. A Developers Story</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/blogpics/computer-crab.jpg&quot; class=&quot;fit image&quot; /&gt;
+There is nothing like unclear or poorly described requirements –  or more generally speaking wrong input – to put undue pressure on the output of a development team. Agile processes often result in amazingly productive software machines, but bad input is like throwing sand in that machine.&lt;/p&gt;
+
+&lt;p&gt;Most software developers can relate to the days they are in and out of meetings without even touching their keyboard. For me, the worst meetings are those where every hypothetical corner case gets discussed, and everybody is surprised why some item is listed that high on the backlog. If this feels familiar you need to start thinking  about the quality of input to your team.&lt;/p&gt;
+
+&lt;p&gt;Garbage in, garbage out. This decades-old statement still remains relevant in today’s agile way of working. After too many hours of frustration a couple of colleagues and myself decided to address it ourselves. Being a developer, there are few things I like better than solving problems. So let’s take a look at four problems especially common when using digital backlog tracking that I would like to see solved.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bumping low priority / poorly described (garbage) stories&lt;/strong&gt;
+In practice the bottom items of the backlog are usually either insufficiently defined or over-defined and discussed  over and over again. At some point someone will bump the priority and we have garbage on the top of the backlog. Next thing, we are discussing garbage in a refinement meeting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A backlog of over-aged stories&lt;/strong&gt;
+Some stories never reach the sprint. You will probably also have a couple of stories that are always excluded from sprints. The thing I like about post-it backlogs is that they eventually fall of. During refinement meetings people tend to disagree on points, depth, breadth, and in a general sense. These are typically the stories about which  architecturally-inclined  colleagues start shouting that ‘this will break compatibility’ or ‘this will mean a complete overhaul’ and your product owner will shout back:  ‘How can that be, it contains almost no functionality’. Ultimately discussions are settled because the story is ‘ill defined’. But how many of these stories are on your backlog?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mislabeled or ‘upgraded’ stories&lt;/strong&gt;
+Bugs are dressed up as user stories to make  it look like the team is delivering functionality instead of fixing technical debt. The incorrect labeling of stories can often lead to ill-defined backlog items.&lt;/p&gt;
+
+&lt;p&gt;Although all major issue-tracking tools try to provide structure they lack the proper heuristics that really help you to keep your input of a sufficiently high quality. Hopefully some fields can be configured to be mandatory for certain issue types, but let’s face it: people will start adding content in the form of stuffing, when you cannot save an issue without completing the form. Improper information dilutes the story, or is a distraction at the very least.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duplicates or cousins&lt;/strong&gt;
+Didn’t we go over this already? Something, you often hear, or at least think for yourself. In an agile environment. Lots of people still use issue trackers for requirements tracking. Today’s tooling makes it easy to just say: ‘I’ll just make a story for it. In the end you will end up with an enormous list of issues. It can be worse - you could inherit a backlog from your predecessor. The flat list kind of backlogs make it very difficult to retain a feeling of correctness about stories. Sometimes there will be duplicates, where the stories only differ somewhat in detail. Which one is then more accurate? On a physical board you at least have some limitation in terms of physical space. We often resort to labeling to scope down a story, but guess what: stories change just like your software does. Are labels realy good enough to group stories and to reduce the cognitive load of a long list of things? As a developer I just want my stories to be correct and without duplicates, but maybe more importantly, I want to be able to see the extent of grouping of functionality. When discussing architecture it is always good to see a bigger picture.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As a software engineer I feel that all these opportunities for ‘garbage in’ take away the fun  in my job. Meetings become needlessly frustrating and time-consuming. I think that a lot of these problems can be addressed by software, but paradoxically I also think software IS the actual cause of some of these problem. Doing physical issue tracking has its own downside, however modern digital issue trackers have definitely shaped the contents of this blog.&lt;/p&gt;
+
+&lt;p&gt;For the last year, we have been working on and off on our backlog validation software called Gareth. For developers, it is normal to have your code and software artifacts tested continuously. And we have developed fancy dashboards and monitoring systems over time. For us, this was an inspiration to start continuous backlog validation. We have been iteratively developing and testing with it on ten backlogs the last three months and are happy with the results. Backlogs are scanned and tested daily and results are graphed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/getgareth.github.io/images/gareth-dashboard-sh.png&quot; class=&quot;lean-image-left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And just like we are proud of a +90% code coverage, product owners are proud of a +90 score on their backlog and will check and correct their backlog on a daily basis. We even included it in our Jenkins monitoring dashboard so everyone can see the backlog ‘failing’ or ‘passing’ the threshold.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://serendipics.blogspot.nl/2009/06/computer-trash.html&quot; target=&quot;_blank&quot;&gt;Image source serendipics.blogspot.nl&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://getgareth.io//getgareth.github.io/2016/12/27/Garbage-in,-garbage-out.-A-developers-story.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2016/12/27/Garbage-in,-garbage-out.-A-developers-story.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Some New Cool  Features</title>
@@ -66,14 +108,12 @@ Success: order 5 iPhones from Amazon&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;specifying-duration&quot;&gt;Specifying duration&lt;/h1&gt;
-&lt;p&gt;The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Time: 48 hours&lt;/li&gt;
-  &lt;li&gt;Time: 3 weeks&lt;/li&gt;
-  &lt;li&gt;Time: 42 days&lt;/li&gt;
-  &lt;li&gt;Time: 1 month&lt;/li&gt;
-  &lt;li&gt;Time: 1 year&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:
+* Time: 48 hours
+* Time: 3 weeks
+* Time: 42 days
+* Time: 1 month
+* Time: 1 year&lt;/p&gt;
 
 &lt;p&gt;Note that month is always 30 days and year is 365 days. Running the experiment with 1 month duration on the 1st of February will check the assumption on the 3rd of March, ignoring leap years. If you want specific behaviour you can still write your own implementation:&lt;/p&gt;
 
@@ -93,8 +133,8 @@ Success: order 5 iPhones from Amazon&lt;/p&gt;
 &lt;p&gt;Do you like it or do you need some help with setting Gareth up? Do you want to contribute in any way? Please let us know!&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2016/04/12/some-new-cool-features.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2016/04/12/some-new-cool-features.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2016/04/12/some-new-cool-features.html</guid>
         
         
       </item>
@@ -163,8 +203,8 @@ With impact mapping we make a lot of assumptions. In the example below we assume
 &lt;a href=&quot;http://craftsmenlabs.github.io/gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html&quot;&gt;After continuous integration there is continuous validation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 16 Nov 2015 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/11/16/Impact-mapping-and-continuous-validation.html</guid>
         
         
       </item>
@@ -232,8 +272,8 @@ Action: Create an investigative story on the backlog.&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;420&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/xWvc--BOtHo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/16/Meet-Gareth.-He-is-seriously-unpleasant.html</guid>
         
         
       </item>
@@ -295,8 +335,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Are you interested? Please be our guest and try Gareth. Gareth is open source (GNU General Public License v2.0) so that we all can benefit. Do you want to contribute in any way? Please let us know! We are really looking forward to hearing from you.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/09/15/Gareth,-validating-your-business-goals.html</guid>
         
         
       </item>
@@ -347,8 +387,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Does your product have gates without fences? Are you aware? Not all as visible as the one in the picture I’m sure, but they’ll cost you money just the same.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Aug 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/08/15/After-continuous-integration-there-is-continuous-validation.html</guid>
         
         
       </item>
@@ -421,8 +461,8 @@ Failure: Send an email to the Product Owner.&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;We are currently implementing this idea and will share our findings and solutions in one or more follow-up blogs. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Tue, 14 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
-        <guid isPermaLink="true">http://localhost:4000/getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
+        <link>http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</link>
+        <guid isPermaLink="true">http://getgareth.io//getgareth.github.io/2015/07/14/How-assumptions-are-not-the-mother-of-all-f-ups.html</guid>
         
         
       </item>

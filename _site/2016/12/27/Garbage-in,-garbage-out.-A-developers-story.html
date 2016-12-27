@@ -4,7 +4,7 @@
     
 <head>
 
-    <title>Gareth, Validating Your Business Goals</title>
+    <title>Garbage In, Garbage Out. A Developers Story</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="/getgareth.github.io/images/favicon.ico"/>
     <meta name="description" content="Start building the right things right. Gareth is the continuous business goal and requirements validation platform." />
@@ -135,64 +135,43 @@
         </div>
         <div class="8u">
         <header class="major">
-            <h2 class="post-title">Gareth, Validating Your Business Goals</h2>
-                <p class="post-meta">Sep 15, 2015 • Hylke Stapersma</p>
+            <h2 class="post-title">Garbage In, Garbage Out. A Developers Story</h2>
+                <p class="post-meta">Dec 27, 2016 • Kevin van Ingen</p>
         </header>
 
         <section class="post-content">
-            <p>Software development evolves at a rapid pace. Continuous delivery is the new black. With software being created and delivered faster than ever, we find that the input lags behind. We build software with a reason, usually to solve an existing problem or deliver more business value. Yet we notice that these reasons are hardly ever validated.</p>
+            <p><img src="/getgareth.github.io/images/blogpics/computer-crab.jpg" class="fit image" />
+There is nothing like unclear or poorly described requirements –  or more generally speaking wrong input – to put undue pressure on the output of a development team. Agile processes often result in amazingly productive software machines, but bad input is like throwing sand in that machine.</p>
 
-<p>We need to validate that the software we built still has a reason to exist. That’s why we made Gareth. Gareth clarifies and validates the Why.</p>
+<p>Most software developers can relate to the days they are in and out of meetings without even touching their keyboard. For me, the worst meetings are those where every hypothetical corner case gets discussed, and everybody is surprised why some item is listed that high on the backlog. If this feels familiar you need to start thinking  about the quality of input to your team.</p>
 
-<p>In this blog post we will show you how to use Gareth and make validating your business goals part of your development process. You will see how Gareth validates the entire lifecycle of a business goal, from inception of a user story right into production.</p>
+<p>Garbage in, garbage out. This decades-old statement still remains relevant in today’s agile way of working. After too many hours of frustration a couple of colleagues and myself decided to address it ourselves. Being a developer, there are few things I like better than solving problems. So let’s take a look at four problems especially common when using digital backlog tracking that I would like to see solved.</p>
 
-<h2>Inception</h2>
-<p>User stories are always written for a reason. Say we expect that a relevant FAQ page will reduce the number of customer support calls. This is a clear business goal and with Gareth we can make such goals — the Why — part of the process.</p>
+<p><strong>Bumping low priority / poorly described (garbage) stories</strong>
+In practice the bottom items of the backlog are usually either insufficiently defined or over-defined and discussed  over and over again. At some point someone will bump the priority and we have garbage on the top of the backlog. Next thing, we are discussing garbage in a refinement meeting.</p>
 
-<p>These business goals should be included in the roadmaps, features and user stories at an early stage, for by doing so these goals will become apparent for the team realizing the software and it also allows for reflection on the usefulness of the desired functionality. These goals, or Why’s, are described in the Gareth DSL. We introduce another dimension to a user story, which we will call an Experiment:</p>
+<p><strong>A backlog of over-aged stories</strong>
+Some stories never reach the sprint. You will probably also have a couple of stories that are always excluded from sprints. The thing I like about post-it backlogs is that they eventually fall of. During refinement meetings people tend to disagree on points, depth, breadth, and in a general sense. These are typically the stories about which  architecturally-inclined  colleagues start shouting that ‘this will break compatibility’ or ‘this will mean a complete overhaul’ and your product owner will shout back:  ‘How can that be, it contains almost no functionality’. Ultimately discussions are settled because the story is ‘ill defined’. But how many of these stories are on your backlog?</p>
 
-<h3>The story:</h3>
+<p><strong>Mislabeled or ‘upgraded’ stories</strong>
+Bugs are dressed up as user stories to make  it look like the team is delivering functionality instead of fixing technical debt. The incorrect labeling of stories can often lead to ill-defined backlog items.</p>
 
-<p>As the owner of the hotel booking site,<br />
-I want the users to see the discounted rooms first,<br />
-So that they will be booked first.<br /></p>
+<p>Although all major issue-tracking tools try to provide structure they lack the proper heuristics that really help you to keep your input of a sufficiently high quality. Hopefully some fields can be configured to be mandatory for certain issue types, but let’s face it: people will start adding content in the form of stuffing, when you cannot save an issue without completing the form. Improper information dilutes the story, or is a distraction at the very least.</p>
 
-<h3>The experiment could be:</h3>
+<p><strong>Duplicates or cousins</strong>
+Didn’t we go over this already? Something, you often hear, or at least think for yourself. In an agile environment. Lots of people still use issue trackers for requirements tracking. Today’s tooling makes it easy to just say: ‘I’ll just make a story for it. In the end you will end up with an enormous list of issues. It can be worse - you could inherit a backlog from your predecessor. The flat list kind of backlogs make it very difficult to retain a feeling of correctness about stories. Sometimes there will be duplicates, where the stories only differ somewhat in detail. Which one is then more accurate? On a physical board you at least have some limitation in terms of physical space. We often resort to labeling to scope down a story, but guess what: stories change just like your software does. Are labels realy good enough to group stories and to reduce the cognitive load of a long list of things? As a developer I just want my stories to be correct and without duplicates, but maybe more importantly, I want to be able to see the extent of grouping of functionality. When discussing architecture it is always good to see a bigger picture.</p>
 
-<p>Experiment: I want to validate that by showing the discounted rooms first, there will be an increase in booked rooms.</p>
+<hr />
 
-<p>Baseline: Get the current number of discounted rooms booked.<br />
-Assume: There will be an increase in bookings for discounted rooms of 25 per week.<br />
-Time: 1 week<br />
-Success: Send email to the whole team with congratulations<br />
-Failure: Send an email to the Product Owner.<br /></p>
+<p>As a software engineer I feel that all these opportunities for ‘garbage in’ take away the fun  in my job. Meetings become needlessly frustrating and time-consuming. I think that a lot of these problems can be addressed by software, but paradoxically I also think software IS the actual cause of some of these problem. Doing physical issue tracking has its own downside, however modern digital issue trackers have definitely shaped the contents of this blog.</p>
 
-<p>We kept the language clean and readable to make it easy for a product owner to communicate with his or her stakeholders. Talking the same language throughout the business simplifies things, because a user story can often be interpreted in many different ways.</p>
+<p>For the last year, we have been working on and off on our backlog validation software called Gareth. For developers, it is normal to have your code and software artifacts tested continuously. And we have developed fancy dashboards and monitoring systems over time. For us, this was an inspiration to start continuous backlog validation. We have been iteratively developing and testing with it on ten backlogs the last three months and are happy with the results. Backlogs are scanned and tested daily and results are graphed.</p>
 
-<p>With Gareth the product owner describes the goal that should be achieved: the experiment. By setting a baseline (getting the current situation), an assumption (the desired future situation) and a time within which the goal should reached we have all the information needed to validate the goal. The final two parameters are the desired actions taken when an experiment fails or passes.</p>
+<p><img src="/getgareth.github.io/images/gareth-dashboard-sh.png" class="lean-image-left" /></p>
 
-<h2>Development</h2>
-<p>A user story now consist of the story, the acceptance criteria and the experiment. This way it becomes clear for the team members what the product owner wants to achieve. The development team is now able to create definitions that can be ‘glued ’ to the experiment:</p>
+<p>And just like we are proud of a +90% code coverage, product owners are proud of a +90 score on their backlog and will check and correct their backlog on a daily basis. We even included it in our Jenkins monitoring dashboard so everyone can see the backlog ‘failing’ or ‘passing’ the threshold.</p>
 
-<script src="https://gist.github.com/Hylke1982/ef6c055cc3cecd0c638d.js"></script>
-
-<p>In this example you can see how every line in the experiment description in the Gareth DSL is mapped to methods in the ExperimentDefinition. The doBaseline method executes the code that looks up the number of rooms currently booked and the doAssume code will execute after one week, as defined in the doTime method. After the definition code is glued to the experiments defined by the product owner it is time to run the experiment in production. And to keep it running from there on.</p>
-<h2>Production</h2>
-<p>Bringing your experiment into production means that the experiment described in the Gareth DSL and the experiment definition are brought together. This is the moment that the product owner gets feedback if the user story really makes a difference or is just functionality that interferes with other business goals. The experiment and the experiment can be brought together with the following code.</p>
-
-<script src="https://gist.github.com/Hylke1982/c4c0fcea2779093edbf9.js"></script>
-
-<p>With the ExperimentEngineConfig you can load experiment descriptions and definitions. The ExperimentEngine will load this configuration. Afterwards you can start the engine and your experiment will be validated automatically.</p>
-
-<h2>Wrapup</h2>
-<p><img src="/getgareth.github.io/images/explain/Cycle 3.png" class="lean-image-left" /></p>
-
-<p>Gareth makes it possible for a product owner to clearly communicate with stakeholders about the business goals and the results of the validation. “Yes we assumed that the effect of this was X but we found out that this assumption was wrong. Let’s find out why and get it right”. It clearly helps the stakeholders and the product owner to define the right functionality and validate these continuously. It is a great way to improve product definitions.</p>
-
-<p>Gareth also helps software development teams become more aware as to which goals should be achieved when implementing a user story. This has a big impact on the design and functionality of the software.</p>
-
-<h2>Get Gareth</h2>
-<p>Are you interested? Please be our guest and try Gareth. Gareth is open source (GNU General Public License v2.0) so that we all can benefit. Do you want to contribute in any way? Please let us know! We are really looking forward to hearing from you.</p>
+<p><a href="http://serendipics.blogspot.nl/2009/06/computer-trash.html" target="_blank">Image source serendipics.blogspot.nl</a></p>
 
         </section>
         </div>
