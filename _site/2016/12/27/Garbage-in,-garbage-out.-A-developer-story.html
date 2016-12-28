@@ -4,7 +4,7 @@
     
 <head>
 
-    <title>Impact Mapping And Continuous Validation</title>
+    <title>Garbage In, Garbage Out. A Developer Story</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="/getgareth.github.io/images/favicon.ico"/>
     <meta name="description" content="Start building the right things right. Gareth is the continuous business goal and requirements validation platform." />
@@ -135,71 +135,45 @@
         </div>
         <div class="8u">
         <header class="major">
-            <h2 class="post-title">Impact Mapping And Continuous Validation</h2>
-                <p class="post-meta">Nov 16, 2015 • Niels Talens</p>
+            <h2 class="post-title">Garbage In, Garbage Out. A Developer Story</h2>
+                <p class="post-meta">Dec 27, 2016 • Kevin van Ingen</p>
         </header>
 
         <section class="post-content">
-            <p><img src="/getgareth.github.io/images/blogpics/impact.jpg" class="fit image" />
-There is always a reason for making software. Let’s rephrase that: there should always be a reason, at least from a business perspective. How else could our products have any impact?</p>
+            <p><img src="/getgareth.github.io/images/blogpics/computer-crab.jpg" class="fit image" />
+There is nothing like unclear or poorly described requirements –  or more generally speaking wrong input – to put undue pressure on the output of a development team. Agile processes often result in amazingly productive software machines, but bad input is like throwing sand in that machine.</p>
 
-<p>Whether we want to make an app that that seamlessly connects riders to drivers or build a community where you can hire and rent apartments while earning tons of money: it is basically all about adding value and solving problems from a software point of view.</p>
+<p>Most software developers can relate to the days they are in and out of meetings without even touching their keyboard. For me, the worst meetings are those where every hypothetical corner case gets discussed, and everybody is surprised why some item is listed that high on the backlog. If this feels familiar you need to start thinking  about the quality of input to your team.</p>
 
-<h2>Impact Mapping</h2>
-<p>Impact mapping is a technique that can be helpful in defining the impact you want your product to have with all that follows. Why are we doing this? You first define the desired impact with some criteria that you consider necessary to make this impact. These criteria stand for the how and the what.</p>
+<p>Garbage in, garbage out. This decades-old statement still remains relevant in today’s agile way of working. After too many hours of frustration a couple of colleagues and myself decided to address it ourselves. Being a developer, there are few things I like better than solving problems. So let’s take a look at four problems especially common when using digital backlog tracking that I would like to see solved.</p>
 
-<p>The example below from by impactmapping.com illustrates how impact mapping works:</p>
+<p><strong>Bumping low priority / poorly described (garbage) stories</strong>
+In practice the bottom items of the backlog are usually either insufficiently defined or over-defined and discussed  over and over again. At some point someone will bump the priority and we have garbage on the top of the backlog. Next thing, we are discussing garbage in a refinement meeting.</p>
 
-<p><img src="/getgareth.github.io/images/blogpics/im_example.png" class="fit image" /></p>
+<p><strong>A backlog of over-aged stories</strong>
+Some stories never reach the sprint. You will probably also have a couple of stories that are always excluded from sprints. The thing I like about post-it backlogs is that they eventually fall of. During refinement meetings people tend to disagree on points, depth, breadth, and in a general sense. These are typically the stories about which  architecturally-inclined  colleagues start shouting that ‘this will break compatibility’ or ‘this will mean a complete overhaul’ and your product owner will shout back:  ‘How can that be, it contains almost no functionality’. Ultimately discussions are settled because the story is ‘ill defined’. But how many of these stories are on your backlog?</p>
 
-<ul>
-  <li>We want to reach 1 million players on our platform.</li>
-  <li>We think that there are three personas that can help us with that: players, internal employees and advertisers.</li>
-  <li>We think we know how they can help us with that</li>
-  <li>We think we know what will facilitate them on our platform.</li>
-</ul>
+<p><strong>Mislabeled or ‘upgraded’ stories</strong>
+Bugs are dressed up as user stories to make  it look like the team is delivering functionality instead of fixing technical debt. The incorrect labeling of stories can often lead to ill-defined backlog items.</p>
 
-<p>The impact map cheat sheet made by <a href="http://craigsmith.id.au/">Craig Smith</a> can be a helpful aid to keep everybody focused while doing the impact mapping:</p>
+<p>Although all major issue-tracking tools try to provide structure they lack the proper heuristics that really help you to keep your input of a sufficiently high quality. Hopefully some fields can be configured to be mandatory for certain issue types, but let’s face it: people will start adding content in the form of stuffing, when you cannot save an issue without completing the form. Improper information dilutes the story, or is a distraction at the very least.</p>
 
-<p><img src="/getgareth.github.io/images/blogpics/impact-map-cheat-sheet.jpg" class="lean-image-left" /></p>
+<p><strong>Duplicates or cousins</strong>
+Didn’t we go over this already? Something, you often hear, or at least think for yourself. In an agile environment. Lots of people still use issue trackers for requirements tracking. Today’s tooling makes it easy to just say: ‘I’ll just make a story for it. In the end you will end up with an enormous list of issues. It can be worse - you could inherit a backlog from your predecessor. The flat list kind of backlogs make it very difficult to retain a feeling of correctness about stories. Sometimes there will be duplicates, where the stories only differ somewhat in detail. Which one is then more accurate? On a physical board you at least have some limitation in terms of physical space. We often resort to labeling to scope down a story, but guess what: stories change just like your software does. Are labels realy good enough to group stories and to reduce the cognitive load of a long list of things? As a developer I just want my stories to be correct and without duplicates, but maybe more importantly, I want to be able to see the extent of grouping of functionality. When discussing architecture it is always good to see a bigger picture.</p>
 
-<h2>Assumptions</h2>
-<p><img src="/getgareth.github.io/images/blogpics/assumptions.png" class="fit image" />
-With impact mapping we make a lot of assumptions. In the example below we assume that the actor called Player can help us in making the desired impact (1 million users). We also assume that Player will do this by inviting friends, and we make the assumption that semi-automatic invites will help.</p>
+<hr />
 
-<h2>Following up on your stories</h2>
-<p>The thing I don’t see happening often is following up on the impact of a piece of functionality. We have a review or demo and sometimes we get feedback from users. Yet apart from some performance monitoring we do not really know a lot about the impact we are making. Did we make valid assumptions?</p>
+<p>As a software engineer I feel that all these opportunities for ‘garbage in’ take away the fun  in my job. Meetings become needlessly frustrating and time-consuming. I think that a lot of these problems can be addressed by software, but paradoxically I also think software IS the actual cause of some of these problem. Doing physical issue tracking has its own downside, however modern digital issue trackers have definitely shaped the contents of this blog.</p>
 
-<h2>Continuous validation</h2>
-<p>With continuous validation we also make many assumptions. In contrast to automatic unit tests we want to keep validating the same assumptions in production as long as the functionality is alive, and not run it only once. It is very common that the impact of one feature is diminished by a newer one. To create great projects this is something you really want to know and should act on.</p>
+<p>For the last year, we have been working on and off on our backlog validation software called Gareth. For developers, it is normal to have your code and software artifacts tested continuously. And we have developed fancy dashboards and monitoring systems over time. For us, this was an inspiration to start continuous backlog validation. We have been iteratively developing and testing with it on ten backlogs the last three months and are happy with the results. Backlogs are scanned and tested daily and results are graphed.</p>
 
-<p>We introduce validation as an extra dimension to a user story. We call this an experiment. These experiments will run scheduled in production as long as the functionality is there. The experiment for the example above could be:</p>
+<p><img src="/getgareth.github.io/images/gareth-dashboard-sh.png" class="lean-image-left" /></p>
 
-<p><strong>Experiment:</strong> By giving players the option to invite friends semi-automatically the number of players will increase.<br />
-<strong>Baseline:</strong> Get the current amount players.<br />
-<strong>Assume:</strong> There will be a 10% increase in new players.<br />
-<strong>Time:</strong> 1 month.<br />
-<strong>Success:</strong> Send cake to the whole team with congratulations.<br />
-<strong>Failure:</strong> Push message to Product Owner.<br /></p>
+<p>And just like we are proud of a +90% code coverage, product owners are proud of a +90 score on their backlog and will check and correct their backlog on a daily basis. We even included it in our Jenkins monitoring dashboard so everyone can see the backlog ‘failing’ or ‘passing’ the threshold.</p>
 
-<p>Other things I would like to know and want to create experiments for is how much the invite option is being used, who uses it, and what the assumed effect is after 6 months?</p>
+<p>Read our blogs for more information on this exciting topic!</p>
 
-<h2>Impact mapping and continuous validation</h2>
-
-<p>In a sense continuous validation is the automation of impact mapping. Where impact mapping is a great way to define products, continuous validation makes sure your assumptions are being validated. Not once, but as long as the functionality is alive.</p>
-
-<p>Creating great products is not only about adding new cool features. It is also about removing or changing existing features whose goals aren’t met. We know which impact we want to have. Are we in any way achieving this goal? Are our assumptions right? Is there functionality that is not contributing to our goal?</p>
-
-<p>Manual monitoring of all the assumptions that were made is undoable most of the times. Working software must be delivered at an ever faster pace. That’s why after continuous integration there is continuous validation.</p>
-
-<p><a href="https://twitter.com/hylke1982">Hylke staperma</a> and <a href="https://twitter.com/NielsTalens">myself</a> are currently working on a continuous validation framework called Gareth <a href="http://www.getgareth.io">getgareth.io</a> It is an open source project and we would really like to hear from you if you are interested in contributing, trying Gareth out or just discuss it. Fork us on <a href="https://github.com/craftsmenlabs">Github</a></p>
-
-<h2>More on:</h2>
-<p>Impact mapping:
-<a href="www.impactmapping.org">www.impactmapping.org</a></p>
-
-<p>Continuous validation:
-<a href="http://craftsmenlabs.github.io/gareth/2015/08/15/After-continuous-integration-there-is-continuous-validation.html">After continuous integration there is continuous validation</a></p>
+<p><a href="http://serendipics.blogspot.nl/2009/06/computer-trash.html" target="_blank"><i>Image source: serendipics.blogspot.nl</i></a></p>
 
         </section>
         </div>

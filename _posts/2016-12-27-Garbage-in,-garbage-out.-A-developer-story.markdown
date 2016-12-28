@@ -35,5 +35,6 @@ For the last year, we have been working on and off on our backlog validation sof
 
 And just like we are proud of a +90% code coverage, product owners are proud of a +90 score on their backlog and will check and correct their backlog on a daily basis. We even included it in our Jenkins monitoring dashboard so everyone can see the backlog ‘failing’ or ‘passing’ the threshold.
 
+Read our blogs for more information on this exciting topic!
 
-[Image source serendipics.blogspot.nl](http://serendipics.blogspot.nl/2009/06/computer-trash.html){:target="_blank"}
+[<i>Image source: serendipics.blogspot.nl</i>](http://serendipics.blogspot.nl/2009/06/computer-trash.html){:target="_blank"}
