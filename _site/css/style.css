@@ -88,8 +88,8 @@
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 2.75em;
+		margin: 0 0 0 0;
 	}
 
 	sub {
@@ -108,6 +108,12 @@
 		border: 0;
 		border-bottom: dotted 1px rgba(144, 144, 144, 0.25);
 		margin: 3em 0;
+	}
+
+		hr.less-margin {
+		border: 0;
+		border-bottom: dotted 1px rgba(144, 144, 144, 0.25);
+		margin: 1em 0;
 	}
 
 		hr.major {
@@ -955,9 +961,8 @@
 		padding: 3em 20% 2em 20%;
 	}
 
-		.wrapper.style1 {
-			background: #fff;
-			color: #555f66;
+		.wrapper.blogpost {
+			padding: 4em 0em 3em 4em;
 		}
 
 		.wrapper.style2 {
@@ -996,12 +1001,15 @@
 					color: #a3a5a7;
 				}
 
-					.wrapper.styleSmall p {
-							font-size: 1.2em;
-							line-height: 1.5em;
-							margin: 0 10% 2em 10%;
+	.wrapper.blog-overview p {
+			font-size: 1.2em;
+			line-height: 1.5em;
+			margin: 2em 15% 2em 15%;
+	}
 
-					}
+		.wrapper.blog-overview h2 {
+			margin: 2em 15% 2em 15%;
+	}
 
 /* Header */
 
@@ -1010,8 +1018,7 @@
 	}
 
 	#header {
-		background: #fff;
-		color: #555f66;
+		background-color: #37474F;
 		cursor: default;
 		height: 3em;
 		left: 0;
@@ -1020,7 +1027,6 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
-		box-shadow: 0 0 0.1em 0 rgba(0, 0, 0, 0.25);
 	}
 
 		#header h1 {
@@ -1067,7 +1073,7 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #555f66;
+						color: #eee;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -1110,12 +1116,38 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
-		padding: 8em 0;
+		padding: 5em 0;
 		text-align: center;
 		position: relative;
 	}
 
 	#banner.with-image {
+		background-color: #fff;
+		background-size: cover;
+		background-image: url("../images/concept.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		color: #fff;
+		padding: 3em 0 0em 0;
+		text-align: center;
+		position: relative;
+	}
+
+	#banner.with-image h2 {
+		color: #fff;
+		font-size: 2.5em;
+		line-height: 1em;
+		margin: 1em 0 0.5em 0;
+		padding: 0;
+	}
+
+	#banner.with-image p {
+		color: #ffffff;
+		font-size: 1.5em;
+		margin-bottom: 2em;
+	}
+
+	#banner.white-banner {
 		background-color: #fff;
 		background-size: cover;
 		background-position: center center;
@@ -1126,30 +1158,7 @@
 		position: relative;
 	}
 
-	#banner.white-banner {
-		background-color: #fff;
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		color: #fff;
-		padding: 3em 0 5em 0;
-		text-align: center;
-		position: relative;
-	}
-
 	#banner.white-banner h2 {
-		color: #e21414;
-		margin: 1em 0 0.5em 0;
-		padding: 0;
-	}
-
-	#banner.white-banner p {
-		color: #666f77;
-		font-size: 2em;
-		margin-bottom: 2em;
-	}
-
-	#banner.with-image h2 {
 		color: #e21414;
 		font-size: 2.25em;
 		line-height: 1em;
@@ -1157,7 +1166,7 @@
 		padding: 0;
 	}
 
-	#banner.with-image p {
+	#banner.white-banner p {
 		color: #666f77;
 		font-size: 1.5em;
 		margin-bottom: 2em;
@@ -1198,8 +1207,9 @@
 			color: #ffffff !important;
 		}
 		#banner .button.alt-redtxt {
-			box-shadow: inset 0 0 0 1px #e21414;
+			box-shadow: inset 0 0 0 2px #e21414;
 			color: #e21414 !important;
+			background-color: rgba(144, 144, 144, 0.275);
 		}
 
 			#banner .button.alt:hover {
@@ -1208,6 +1218,7 @@
 
 			#banner .button.alt-redtxt:hover {
 				color: #e21414 !important;
+				background-color: rgba(144, 144, 144, 0.5);
 			}
 
 			#banner .button.alt:active {
@@ -1223,7 +1234,7 @@
 		}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 2.5em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
