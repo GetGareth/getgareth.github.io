@@ -1,10 +1,12 @@
 # Site settings
 title: Gareth - The continuous business goal and requirements validation platform.
 email: ntalens@gmail.com
-description: Hello world, please meet Gareth. He can be seriously unpleasant. Trust me, we know. But he is becoming more and more indispensable. He will tell you clearly, without emotions, when your ideas are rubbish. He will certainly not hold back and he will give you the facts when your assumptions don’t hold up. He will keep validating that your business goals are reached. If not, he’ll let you know.
+description: It is crucial to create and maintain an overview of the quality of input for software product development. By measuring and reporting over the quality companies can finally control their requirement processes. Gareth measures both the input and the outcomes of your products and reports about it.
 baseurl: "/getgareth.github.io" # the subpath of your site, e.g. /blog/
 url: "http://getgareth.io/" # the base hostname & protocol for your site
-twitter_username: craftsmenlabs
+twitter:
+  username:
+    craftsmenlabs
 github_username: craftsmenlabs
 
 # Build settings
@@ -13,3 +15,4 @@ markdown: kramdown
 # Gems
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
