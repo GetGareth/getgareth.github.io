@@ -198,14 +198,12 @@ Success: order 5 iPhones from Amazon</p>
 </ul>
 
 <h1 id="specifying-duration">Specifying duration</h1>
-<p>The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:</p>
-<ul>
-  <li>Time: 48 hours</li>
-  <li>Time: 3 weeks</li>
-  <li>Time: 42 days</li>
-  <li>Time: 1 month</li>
-  <li>Time: 1 year</li>
-</ul>
+<p>The regex mechanism as described above is not available for the Time glue line, meaning that the @Time annotated definition method cannot be configured with arguments. However, you may leave it out entirely if your Time glue line follows the pattern of [number] [duration], where duration is one of second, minute, hour, day, week, month, year, or their corresponding plurals:
+* Time: 48 hours
+* Time: 3 weeks
+* Time: 42 days
+* Time: 1 month
+* Time: 1 year</p>
 
 <p>Note that month is always 30 days and year is 365 days. Running the experiment with 1 month duration on the 1st of February will check the assumption on the 3rd of March, ignoring leap years. If you want specific behaviour you can still write your own implementation:</p>
 
