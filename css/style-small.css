@@ -71,6 +71,24 @@
 			font-size: 1.25em;
 		}
 
+	#banner.with-image {
+		padding: 2em 0 2em 0;
+	}
+
+	#banner.with-image h2 {
+	color: #fff;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin: 1em 0 0.5em 0;
+	padding: 0;
+	}
+
+	#banner.with-image p {
+		color: #ffffff;
+		font-size: 1.25em;
+		margin-bottom: 2em;
+	}
+
 /* Main */
 
 	#main {
