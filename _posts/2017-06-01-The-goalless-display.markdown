@@ -22,7 +22,7 @@ Business goals and objectives are rarely stated. Or they are but they are not sh
 * The business want's it (and who the hell is this mysterious "business" we can always refer to but we never see and meet?),
 * We do it like this the past 10 years,
 * If we do not do this, person x will get mad,
-* ….
+* …
 
 <h2>From goalless to purposeful</h2>
 To turn a goalless display to a purposeful one we need to start at the beginning. What do we want to gain from it? What are our goals? Which problems are we going to solve?
