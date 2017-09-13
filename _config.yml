@@ -2,7 +2,7 @@
 title: Gareth - The continuous business goal and requirements validation platform.
 email: ntalens@gmail.com
 description: It is crucial to create and maintain an overview of the quality of input for software product development. By measuring and reporting over the quality companies can finally control their requirement processes. Gareth measures both the input and the outcomes of your products and reports about it.
-baseurl: "/getgareth.github.io" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://getgareth.io/" # the base hostname & protocol for your site
 twitter:
   username:
